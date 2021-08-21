@@ -10,10 +10,6 @@ import Kingfisher
 import CoreGraphics
 import Foundation
 
-#if SWIFT_PACKAGE
-import KingfisherWebP_ObjC
-#endif
-
 // MARK: - Image Representation
 extension KingfisherWrapper where Base: KFCrossPlatformImage {
     /// isLossy  (0=lossy , 1=lossless (default)).
